@@ -447,14 +447,19 @@
             </li>
           </ul>
         </div>
-          <div class="form-div">
-          <form class="form-footer">
-            <p>Подпишитесь на рассылку</p>
-              <label class="label-footer" for="label-footer"></label>
-              <input type="text" name="label-footer" id="label-footer" 
-              placeholder="E-mail" class="input-footer"/>
-            <button type="submit" class="submit-footer">Подписаться</button>
-          </form>
+          <div class="subscribe-div">
+            <h2 class="footer-subscribe">Подпишитесь на рассылку</h2>
+          <div class="div-form-footer">
+            <form class="form-footer">
+                <label class="button-footer" for="button-footer" ></label>
+                <input type="text" name="button-footer" id="button-footer" 
+                placeholder="E-mail" class="input-footer"/>
+              <button type="submit" class="submit-footer">
+              Подписаться <svg class="submit-icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg></button>
+            </form>
+        </div>
         </div>
       </div>
     </footer>
@@ -467,7 +472,7 @@
           </svg>
         </button>
         <div class="modal-form">
-          <form class="form form-studia">
+          <form class="form-studia">
             <div class="modal-feedback-div">
               <p class="modal-feedback">Оставьте свои данные, мы вам перезвоним</p>
             </div>
@@ -494,10 +499,10 @@
               </div>
               <div class="form-field form-textarea">
                 <label for="coment" class="coment-textarea">Комментарий</label>
-                <textarea name="coment" id="coment" cols="" rows="" placeholder="Введите текст"
+                <textarea name="coment" id="coment"  placeholder="Введите текст"
               class="textarea-modal"></textarea>
               </div>
-            </div>
+            </form>
             <div class="form-submit">
               <input type="checkbox" name="check-agree" id="check-agree" class="check-agree visually-hidden" id="check-agree"/>
                 <label for="check-agree" class="checkbox-lable"> <span> 
@@ -509,20 +514,10 @@
                     <span class="checkbox-condition">Условия договора </span></a></label>
             </div>
               <button type="submit" class="submit">Отправить</button>
-        </form>
+      </div>
       </div>
     </div>
 
     <script src="./gs/modal.js"></script>
   </body>
 </html>
-<div class="form-submit">
-  <input type="checkbox" name="check-agree" id="check-agree" class="checkbox-input visually-hidden" id="check-agree"/>
-    <label for="check-agree" class="checkbox-lable"> <span> 
-      <svg class="checkbox-svg" width="16" height="15">
-        <use href="/images/icons.svg#icon-check"></use>
-      </svg>
-    </span> Соглашаюсь с рассылкой и принимаю  
-      <a href="">
-        <span class="checkbox-condition">Условия договора </span></a></label>
-</div>
