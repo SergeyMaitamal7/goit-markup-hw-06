@@ -896,7 +896,7 @@ section {
 }
 .textarea-modal:not(:placeholder-shown) {
   opacity: 50%;
-  border-color: 1px solid #2196f3;
+  outline: 1px solid #2196f3;
 }
 
 .form-submit {
