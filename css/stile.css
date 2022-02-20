@@ -629,6 +629,10 @@ section {
   color: var(--header-color-white);
 }
 .footer-link-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--header-color-white);
 }
 .footer-link {
@@ -698,11 +702,10 @@ section {
   background-color: var(--fon-background-grey);
 }
 .footer-subscribe {
-  padding-bottom: 20px;
-  font-style: 400;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 12px;
+  line-height: 1.12;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--header-color-white);
@@ -808,6 +811,7 @@ section {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  background: transparent;
 }
 .btn-mod:hover,
 .btn-mod:focus {
@@ -820,10 +824,8 @@ section {
   padding: 40px 40px 40px 40px;
 }
 
-.modal-feedback-div {
-  margin-bottom: 12px;
-}
 .modal-feedback {
+  margin-bottom: 12px;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
