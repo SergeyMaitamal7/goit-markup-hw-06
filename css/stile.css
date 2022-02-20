@@ -931,14 +931,13 @@ section {
   border-radius: 2px;
 }
 
+.checkbox-svg {
+  fill: transparent;
+}
 .check-agree:checked + .checkbox-lable > span {
   background-color: var(--btn-color-blue);
   border: none;
 }
-.checkbox-svg {
-  fill: transparent;
-}
-
 .check-agree:checked + .checkbox-lable svg {
   fill: #ffffff;
 }
